@@ -1,0 +1,55 @@
+#lineup [lineup-lenght="60"] {
+    width: 12.5%;
+}
+
+#lineup [lineup-lenght="90"] {
+    width: 18.75%;
+}
+
+#lineup [lineup-lenght="120"] {
+    width: 25%;
+}
+
+#lineup [lineup-start="22"] {
+    left: 0%;
+}
+
+#lineup [lineup-start="22.3"] {
+    left: 6.25%;
+}
+
+#lineup [lineup-start="23"] {
+    left: 12.5%;
+}
+
+#lineup [lineup-start="23.3"] {
+    left: 18.75%;
+}
+
+#lineup [lineup-start="24"] {
+    left: 25%;
+}
+
+#lineup [lineup-start="24.3"] {
+    left: 31.25%;
+}
+
+#lineup [lineup-start="22"] {
+    left: 37.5%;
+}
+
+#lineup [lineup-start="22"] {
+    left: 43.75%;
+}
+
+#lineup [lineup-start="22"] {
+    left: 50%;
+}
+
+#lineup [lineup-start="22"] {
+    left: 12.5%;
+}
+
+#lineup [lineup-start="22"] {
+    left: 12.5%;
+}
