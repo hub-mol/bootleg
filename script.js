@@ -1,12 +1,1 @@
-var cssId = 'myCss';  // you could encode the css path itself to generate id..
-if (!document.getElementById(cssId))
-{
-    var head  = document.getElementsByTagName('head')[0];
-    var link  = document.createElement('link');
-    link.id   = cssId;
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'https://raw.githubusercontent.com/hub-mol/bootleg/refs/heads/main/style.css';
-    link.media = 'all';
-    head.appendChild(link);
-}
+document.head.insertAdjacentHTML("beforeend", `<style>#lineup [lineup-lenght='60']{width:12.5%}#lineup [lineup-lenght='90']{width:18.75%}#lineup [lineup-lenght='120']{width:25%}#lineup [lineup-start='22.00']{left:0}#lineup [lineup-start='22.30']{left:6.25%}#lineup [lineup-start='23.00']{left:12.5%}#lineup [lineup-start='23.30']{left:18.75%}#lineup [lineup-start='24.00']{left:25%}#lineup [lineup-start='24.30']{left:31.25%}#lineup [lineup-start='01.00']{left:37.5%}#lineup [lineup-start='01.30']{left:43.75%}#lineup [lineup-start='02.00']{left:50%}#lineup [lineup-start='02.30']{left:56.25%}#lineup [lineup-start='03.00']{left:62.5%}#lineup [lineup-start='03.30']{left:68.75%}#lineup [lineup-start='04.00']{left:75%}#lineup [lineup-start='04.30']{left:81.25%}</style>`)
